@@ -43,3 +43,25 @@ h1 {
 .countdown-position span {
     font-size: 20px;
 }
+
+@media(max-width:768px) {
+    .countdown-container{
+        display: inline-block;
+    }
+
+    .countdown-position{
+        margin: 50px 0;
+    }
+
+    .countdown-position span{
+        font-size: 16px;
+    }
+
+    .bigtext{
+        font-size: 60px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+}
